@@ -547,7 +547,7 @@ for (var i = 0; i < NightandPriceDivs.length; i++) {
         }
         var targetDiv = event.target.closest('.nightandprice');
         targetDiv.style.backgroundColor = '#0474db';
-		targetDiv.style.color = 'while';
+		targetDiv.style.color = 'white';
         selectedpackage = targetDiv.id;
 		var fUnhidenights = selectedpackage[8];
 		document.getElementById('FlightDetailsDiv4').style.display = 'none';   
